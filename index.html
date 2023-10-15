@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SehatBanget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ini navbar -->
+    <header>
+        <a href="#" class="logo">SehatBanget!</a>
+        <div class="group">
+            <ul class="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">DOKTER</a></li>
+                <li><a href="#">APOTEK</a></li>
+                <li><a href="#">DARURAT</a></li>
+                <li><a href="#">DAFTAR</a></li>
+            </ul>
+            <div class="search">
+                <span class="icon">
+                    <ion-icon name="search-outline" class="searchbtn"></ion-icon>
+                    <ion-icon name="close-outline" class="closebtn"></ion-icon>
+                </span>
+            </div>
+            <ion-icon name="menu" class="menutoggle"></ion-icon>
+        </div>
+        <div class="searchbox">
+            <input type="text" placeholder="Cari Doktermu di sini!">
+        </div>
+    </header>
+    
+    <!-- buat image slider -->
+    <div class="slider">
+        <div class="images">
+            <input type="radio" name="slide" id="gambar1" chechked>
+            <input type="radio" name="slide" id="gambar2">
+            <input type="radio" name="slide" id="gambar3">
+        
+            <img src="assets/carousel/q1.png" class="m1" alt="gambar1">
+            <img src="assets/carousel/q2.png" class="m2" alt="gambar2">
+            <img src="assets/carousel/q3.png" class="m3" alt="gambar3">
+
+        </div>
+        <div class="dot">
+            <label for="gambar1"></label>
+            <label for="gambar2"></label>
+            <label for="gambar3"></label>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+<script src="script.js"></script>   
+</body>
+</html>
